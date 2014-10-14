@@ -66,9 +66,9 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 .content__img { width: 190px; float: right; }
 
-.img__item { position: relative; display: block; background-color: #f1c40f; margin-top: 18px; width: 101px; height: 97px; float: left; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; -moz-box-shadow: 0 4px 0 #f39c12; -webkit-box-shadow: 0 4px 0 #f39c12; box-shadow: 0 4px 0 #f39c12; }
+.img__item { position: relative; display: block; background-color: #f1c40f; width: 101px; height: 97px; float: left; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; -moz-box-shadow: 0 4px 0 #f39c12; -webkit-box-shadow: 0 4px 0 #f39c12; box-shadow: 0 4px 0 #f39c12; }
 .img__item .smile, .img__item .open, .img__item .garant, .img__item .pay { position: absolute; top: 50%; left: 50%; }
-.img__item .smile { margin: -24px 0 0 -22px; background: url('../img/icons-s5af4c6cf45.png') 0 -466px no-repeat; width: 48px; height: 48px; }
+.img__item .smile { margin: -24px 0 0 -22px; }
 .img__item .open { margin: -21px 0 0 -25px; }
 .img__item .garant { margin: -25px 0 0 -21px; background: url('../img/icons-s5af4c6cf45.png') 0 -305px no-repeat; width: 42px; height: 50px; }
 .img__item .pay { margin: -18px 0 0 -23px; background: url('../img/icons-s5af4c6cf45.png') 0 -417px no-repeat; width: 48px; height: 39px; }
