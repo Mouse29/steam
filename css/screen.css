@@ -58,7 +58,7 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 .no-hover{z-index: 100;}
 
-.no-hover:hover > a{border-bottom: none;background: none; color: #3f3f3f;}
+/*.no-hover:hover > a{border-bottom: none;background: none; color: #3f3f3f;}*/
 .no-hover:hover > .submenu{display: block; height: 150px; }
 .sub { padding-left: 31px; }
 
