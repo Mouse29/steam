@@ -34,10 +34,11 @@ ul, ol { list-style-type: none; }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 .out { width: 1024px; height: auto; margin: 25px auto; font-size: 12px; color: #3f3f3f; *zoom: 1; }
+.out a:focus{text-decoration: none; color: inherit;}
 .out:after { content: " "; display: table; clear: both; }
 
 .clear { clear: both; height: 0; }
-.submenu{ display: none;}
+
 .aside { width: 250px; float: left; border: 1px solid #e5e5e5; color: #3f3f3f; margin-left: 19px; padding: 10px 0 9px 0; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
 .aside:after { content: " "; display: table; clear: both; }
 
@@ -45,14 +46,27 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .aside__item .is-active:hover{background-color: #ffe681; cursor: default;}
 .aside__link { position: relative; display: block; font-size: 12px; color: #3f3f3f; text-decoration: none; padding: 10px 0 10px 22px; }
 .aside__link:hover { background-color: #e5e5e5; border-bottom: none; text-decoration: none; color: #3f3f3f;}
-.no-hover:hover{border-bottom: none;background: none; color: #3f3f3f;}
-.aside__link span{position: absolute; top: 15px; left: 124px;}
+
+
+.submenu { height: 0; overflow: hidden;
+-webkit-transition: height 1s .3s;
+   -moz-transition: height 1s .3s;
+    -ms-transition: height 1s .3s;
+     -o-transition: height 1s .3s;
+        transition: height 1s .3s;}
+
+.no-hover{z-index: 100;}
+
+.no-hover:hover > a{border-bottom: none;background: none; color: #3f3f3f;}
+.no-hover:hover > .submenu{display: block; height: 150px; }
+.aside__link span{position: absolute; top: 10px; left: 124px; font-size: 18px;}
+
 .sub { padding-left: 31px; }
 
 .l-container { width: 705px; height: 1934px; float: right; margin: 0 20px 0 29px; }
 .l-container:after { content: " "; display: table; clear: both; }
 .cont__title{border-bottom: 4px solid #f1c40f; padding-bottom: 12px; font-size: 18px; }
-
+.submenu > .is-active * .no-hover{display: block;}
 .cont__wrap { padding: 17px 0 21px 0; border-bottom: 4px solid #dbdbdb; *zoom: 1; }
 .cont__wrap-noline{ padding: 10px 0 0 0; border-bottom: none;}
 .cont__wrap-noline:after, .cont__wrap:after { content: " "; display: table; clear: both; }
