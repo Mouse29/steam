@@ -1,7 +1,19 @@
 $(document).ready(function() {
-	$('.js-open').hover(function() {
-			$(this).children().removeClass('icon-arrow-right').addClass('icon-arrow-down')
-		}, function(){
-			$(this).children().removeClass('icon-arrow-down').addClass('icon-arrow-right')
-		});
+
+
+
+$('.js-open').click(function(){
+  $(this).next('.submenu').toggle();
+   $(this).children().toggleClass('icon-arrow-right').toggleClass('icon-arrow-down')
+});
+
+$(document).click(function(e) {
+  var target = e.target;
+  if (!$(target).is('.js-open') && !$(target).parents().is('.js-open')) {
+    $('.submenu').hide();
+  }
+
+});
+
+
 });
