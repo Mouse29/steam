@@ -20,7 +20,7 @@
 	    <script type="text/javascript" src="js/jquery.min.js"></script>
 	    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<!--script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script-->
-
+		<script src="js/common.js"></script>
 		<!-- /// JS Plugins CSS ////////  -->
 		<link rel="stylesheet" href="js/flexslider/flexslider.css">
 		<link rel="stylesheet" href="js/scroll/jquery.mCustomScrollbar.css">
@@ -128,7 +128,7 @@
 									<li>
 										<a href="">
 											<div class="ls_image">
-												<img alt="" src="images/good_1.png"><!-- 70x100 -->
+												<img alt="" src="images/select__game.png"><!-- 70x100 -->
 											</div>
 											<div class="ls_price">
 												<div class="good_item_price_inner">
@@ -147,7 +147,7 @@
 									<li>
 										<a href="">
 											<div class="ls_image">
-												<img alt="" src="images/good_1.png">
+												<img alt="" src="images/select__game.png">
 											</div>
 											<div class="ls_price">
 												<div class="good_item_price_inner">
@@ -165,7 +165,7 @@
 									<li>
 										<a href="">
 											<div class="ls_image">
-												<img alt="" src="images/good_1.png">
+												<img alt="" src="images/select__game.png">
 											</div>
 											<div class="ls_price">
 												<div class="good_item_price_inner">
@@ -262,10 +262,10 @@
 <div class="out"> 
 	<ul class="aside">
 		<li class="aside__item"><a class="aside__link" href="#">О нас</a></li><!--
-		--><li class="aside__item is-active"><a class="aside__link" href="#">Отзывы</a></li><!--
+		--><li class="aside__item "><a class="aside__link" href="#">Отзывы</a></li><!--
 		--><li class="aside__item"><a class="aside__link" href="#">Гарантии</a></li><!--
-		--><li class="aside__item"><a class="aside__link  is-active" href="#">Как купить?</a></li><!--
-		--><li class="aside__item"><a class="aside__link no-hover js-open" href="#">Активация игры <span class="icon-arrow-right"></span></a><!--
+		--><li class="aside__item"><a class="aside__link is-active" href="#">Как купить?</a></li><!--
+		--><li class="aside__item  no-hover"><a class="aside__link js-open" href="#">Активация игры <span class="icon-arrow-right"></span></a><!--
 			--><ul class="submenu"><!--
 				--><li><a class="aside__link sub" href="#">Steam</a></li><!--
 				--><li><a class="aside__link sub" href="#">Origin</a></li><!--
@@ -295,12 +295,50 @@
 			<div class="cont__activate">
 				<div class="cont__step"><span>1</span></div>
 				<div class="cont__activate-title">
-					<a href="#">Выбрать игру</a>>
-					<a href="#">Нажать кнопку</a>
+					<a class="cont__activate-link" data-toggle="tab" role="tab" href="#game-series">Выбрать игру</a>
+					<span class="icon-arrow-right"></span>
+					<a class="cont__activate-link" data-toggle="tab" role="tab" href="#game-dlc">Нажать кнопку</a>
 					<div class="clear"></div>
 					<div class="cont__item">
 						<p >Для начала вам стоит выбрать игру из нашего обширного каталога игр..</p>
-						<img src="images/select__game.png" alt="">
+
+
+<div class="tab-content">
+					<div id="game-series" class="tab-pane active">
+						<div class="carousel-wrapper">
+							<div class="carousel-left"><span class="icon-arrow-left2"></span></div>
+							<div class="carousel-right"><span class="icon-arrow-right2"></span></div>
+							<div class="">
+								<div class="article">
+									<div class="wrapper">
+										<a href="">
+											<div class="">
+												<img src="images/select__game.png" alt="">
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="game-dlc" class="tab-pane">
+						<div class="carousel-wrapper">
+							<div class="carousel-left"><span class="icon-arrow-left2"></span></div>
+							<div class="carousel-right"><span class="icon-arrow-right2"></span></div>
+							<div class=" scrolling">
+								<div class="article">
+									<div class="wrapper">
+										<a href="">
+											<div class="">
+												<img src="images/activate__steam.png" alt="">
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
 					</div>
 				</div>
 			</div>
@@ -308,9 +346,11 @@
 		<div class="cont__activate">
 			<div class="cont__step"><span>2</span></div>
 			<div class="cont__activate-title">
-				<a href="#">Выбрать игру</a>>
-				<a href="#">Ввести адрес</a>>
-				<a href="#">Перейти к оплате</a>
+				<a  class="cont__activate-link" href="#">Выбрать игру</a>
+				<span class="icon-arrow-right"></span>
+				<a  class="cont__activate-link" href="#">Ввести адрес</a>
+				<span class="icon-arrow-right"></span>
+				<a class="cont__activate-link"  href="#">Перейти к оплате</a>
 				<div class="clear"></div>
 				<div class="cont__item">
 					<p >Введите своей адрес электронной почты и нажмите кнопку «Продолжить покупку».</p>
@@ -322,7 +362,7 @@
 		<div class="cont__activate">
 			<div class="cont__step"><span>3</span></div>
 			<div class="cont__activate-title">
-				<a href="#">Получение товара</a>
+				<a class="cont__activate-link"  href="#">Получение товара</a>
 				<div class="clear"></div>
 				<div class="cont__item">
 					<p >Получите игры и активируйте их с помощью нашей инструкции</p>
