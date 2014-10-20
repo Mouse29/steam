@@ -116,7 +116,8 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .cont__step span { display: inline; color: #ffd531; margin-left: 17px; line-height: 45px; font-size: 27px; }
 
 .cont__activate-title { float: left; margin: 15px 0 0px 28px; color: #3f3f3f; }
-
+.cont__tab-content {margin-top: -40px; line-height: 45px;}
+.m20{ margin-top: -20px;}
 .cont__activate-link { font-size: 18px; color: #3f3f3f; margin: 0px 10px; text-decoration: none; border-bottom: 1px solid #3f3f3f; }
 .cont__activate-link:hover { color: #ffe681; border-bottom: none; text-decoration: none;}
 .cont__activate-link:first-child { border-bottom: none; margin-left: 0; }
@@ -136,7 +137,7 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .cont__allert { height: 55px; background-color: #ee8176; line-height: 55px; margin-bottom: 10px; padding-left: 15px; }
 .about__us-form {margin-top: 35px;}
 .wrn__name { width: 440px; height: 40px; text-color: #3f3f3f; line-height: 40px; padding-left: 15px; margin: 15px 0; border-radius: 3px; -moz-box-shadow: inset 0 0 2px #edc72f; -webkit-box-shadow: inset 0 0 2px #edc72f; box-shadow: inset 0 0 2px #edc72f; }
-.wrn__name:hover{background: #fff8e0;}
+.wrn__name:hover,.wrn__name:focus {background: #fff8e0;}
 .wrn__area { padding-left: 15px; margin: 15px 0; border-radius: 3px; border: none; outline: none; -moz-box-shadow: inset 0 0 2px #edc72f; -webkit-box-shadow: inset 0 0 2px #edc72f; box-shadow: inset 0 0 2px #edc72f; }
 
 .wrn__load { width: 97px; height: 24px; color: #3f3f3f; margin: 15px 0; line-height: 24px; text-align: center; background-color: #ffd733; border-radius: 3px; }
