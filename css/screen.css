@@ -144,3 +144,5 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .wrn__dell { position: relative; top: 7px;left: 8px; display: inline-block; width: 20px; height: 20px; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAAA0klEQVQ4y5WTQQ7BQBSGJxEXINU1oQdobOvjOk2a9ipi2ZXuWdlUOAELG67DT5kSIdP8mz9vvpn35s0bg7HqkbKiZC+Vcqki5vpUjSUcmDPDpyX5cnNFkk+wTcGG4O30SoGiBe0aXJJ/QS/lLF9grH2/MCFaje+gx5H+X7AvwjNkLGy4w8D6Ad0KFLogM6yZ2sUhJ6KHi+RGFpyyNmyVvE414cxYOssZC3psDTt17b2qkIsU1jUKbLFrADqndr6Mc3ucG+78hA2GosGYOQ+uw1e4AQ8vyGXILaKzAAAAAElFTkSuQmCC"); }
 .wrn__submit { display: block; width: 240px; height: 55px; background-color: #ffd733; line-height: 55px; text-align: center; font-size: 12px; margin: 0 auto; border-radius: 3px; }
 .wrn__star {color: #f3cc49; font-family: "Open sans"; font-size: 12px; font-weight: bold;}
+.wnb__send-title{margin: 45px auto 10px auto; font-weight: 600; text-align: center;}
+.wnb__send-title + p{ text-align: center;}
