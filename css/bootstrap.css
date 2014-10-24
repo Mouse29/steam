@@ -293,11 +293,15 @@ a {
   color: #3f3f3f;
   text-decoration: none;
 }
-a:hover,
-a:focus {
+a:hover{
   color: #f1c40f;
   text-decoration: underline;
 }
+/*a:hover,
+a:focus {
+  color: #f1c40f;
+  text-decoration: underline;
+}*/
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
