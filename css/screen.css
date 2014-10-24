@@ -104,11 +104,13 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .we__garant-imge { width: 25px; height: 25px; position: absolute; top: 3px; left: -33px; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAQAAABu4E3oAAABOUlEQVQ4y52Uv0rDUBSHTyenbAaxk2DAxcEp3fpZIYU+hl00L+DUdDKLm5vvUMgztEM7NVOnUrhCA6KTzRNch9JwE5NSLmc6cD7OOb/zR5CSuYRMWKLYolgyIcTVYpoZ7hCjmBHRx6ONR5+IGYoYpw7psGJKr5JVtNBjyopOFRmwY1QN3yNatDBix8BEfHKGdQBFOQzJ8Q+Iw5qoHsBom4g1zh6JWdA6AWmxINYiuGR0mwBK8tIlwxVC5s1AGdHCnFBIGB9HeOayQMYkQkpwDOGDDRcFEpAKCs8IOCt5wjufXBmFeShhS9sIOWdDWHhvZFyXemmzrWYRAnY8IQivfHFTad9D1fXywC+PvPDN7T/FAtJ6xe7J+eGuRuQxSdNcwG+ei8X0LXbMapMt7sXqKq1u3+rDnPzH/gAJzGthK5EKqAAAAABJRU5ErkJggg=='); }
 .paymant__imge { display: block; width: 556px; height: 156px; margin: 35px auto; }
 .cont__activate { margin: 43px 0 0px 0; *zoom: 1; }
+.cont__activate img {max-width: 535px;}
 .cont__activate:after { content: " "; display: table; clear: both; }
 .cont__step { float: left; width: 54px; height: 54px; border: 3px solid #ffd531; border-radius: 50%; }
 .cont__step span { display: inline; color: #ffd531; margin-left: 17px; line-height: 45px; font-size: 27px; }
 .cont__activate-title { float: left; margin: 15px 0 0px 28px; color: #3f3f3f; }
 .cont__tab-content {margin-top: -40px; line-height: 45px;}
+
 .m20{ margin-top: -20px;}
 .m20 p{margin-bottom: 15px;}
 .pabs{position: absolute; top: 8px; right: -3px;}
