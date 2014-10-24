@@ -112,27 +112,19 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .m20{ margin-top: -20px;}
 .m20 p{margin-bottom: 15px;}
 .pabs{position: absolute; top: 8px; right: -3px;}
-
 .no-bg .nav-tabs{margin: 0 0 30px 0;}
 .no-bg .nav-tabs > li {margin: 0 8px 0 0;}
-
 .no-bg .nav-tabs > li > a {border-bottom: 1px solid #3f3f3f; margin: 0 13px 0 0; border-radius: 0px;font-size: 18px; font-weight: normal; color: #3f3f3f; padding: 0; text-decoration: none; border-bottom: 1px solid #3f3f3f; background-color: #FFF;}
-
 .no-bg .nav-tabs > li > a:hover, .no-bg > li > a:focus{text-decoration: none; background-color: none;  border-bottom: 1px solid transparent; }
 
 .no-bg .nav-tabs > li.active > a, .cont__activate-link { font-size: 18px; font-weight: normal; color: #3f3f3f; padding: 0; text-decoration: none; border-bottom: 1px solid #3f3f3f; background-color: #FFF; border-radius: 0px;}
-
 .no-bg .nav-tabs > li.active > a:hover, .no-bg .nav-tabs > li.active > a:focus, .no-bg .nav-tabs > li > a:hover, .cont__activate-link:hover {color: #ffe681; font-weight: normal; padding: 0; border-bottom: 1px solid transparent; text-decoration: none; background-color: #FFF;}
-
+.no-bg .nav-tabs > li.active > a:focus {color: #3f3f3f;}
 .cont__activate-link:first-child { background-color: #fff; border-bottom: 1px solid transparent; padding: 0; margin-left: 0; }
 
 .cont__activate-link:first-child:hover {color: #3f3f3f;}
 
 .no-bg .nav-tabs > li.active > a{border-bottom: 1px solid transparent; }
-
-
-
-
 .cont__activate-title span{font-weight: 800;}
 .cont__item { margin-top: 15px; }
 .cont__item img { margin-top: 25px; }
