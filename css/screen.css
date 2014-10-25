@@ -142,9 +142,9 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 .cont__allert { background-color: #ee8176;  margin-bottom: 10px; padding: 15px 20px; }
 .about__us-form {margin-top: 35px;}
-.wrn__name { width: 440px; height: 40px; color: #3f3f3f; padding: 15px; border: 1px solid #ffeba8; margin: 15px 0; border-radius: 3px;  /*  -moz-box-shadow: inset 0 0 2px #edc72f; -webkit-box-shadow: inset 0 0 2px #edc72f; box-shadow: inset 0 0 2px #edc72f ;*/ }
+.wrn__name { width: 440px; height: 40px; color: #3f3f3f; padding: 8px 15px; border: 1px solid #ffeba8; margin: 15px 0; border-radius: 3px;}
 .wrn__name:hover,.wrn__name:focus {background: #fff8e0;}
-.wrn__area { padding: 15px; margin: 15px 0; border-radius: 3px; border: none; outline: none; -moz-box-shadow: inset 0 0 2px #edc72f; -webkit-box-shadow: inset 0 0 2px #edc72f; box-shadow: inset 0 0 2px #edc72f; }
+.wrn__area { padding: 15px; margin: 15px 0; border-radius: 3px; border: none; outline: none;border: 1px solid #ffeba8;}
 .wrn__pic { display: inline-block; margin-bottom: 20px;}
 .wrn__dell { position: relative; top: 7px;left: 8px; display: inline-block; width: 20px; height: 20px; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAAA0klEQVQ4y5WTQQ7BQBSGJxEXINU1oQdobOvjOk2a9ipi2ZXuWdlUOAELG67DT5kSIdP8mz9vvpn35s0bg7HqkbKiZC+Vcqki5vpUjSUcmDPDpyX5cnNFkk+wTcGG4O30SoGiBe0aXJJ/QS/lLF9grH2/MCFaje+gx5H+X7AvwjNkLGy4w8D6Ad0KFLogM6yZ2sUhJ6KHi+RGFpyyNmyVvE414cxYOssZC3psDTt17b2qkIsU1jUKbLFrADqndr6Mc3ucG+78hA2GosGYOQ+uw1e4AQ8vyGXILaKzAAAAAElFTkSuQmCC"); }
 .wrn__submit { display: block; width: 240px; height: 55px; background-color: #ffd733; line-height: 55px; text-align: center; font-size: 12px; margin: 0 auto; border-radius: 3px; }
