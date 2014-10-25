@@ -194,11 +194,10 @@ cursor: pointer;}
 }
  
 #upload{
-		width:100%; 
+		width:100px; 
 		-moz-opacity: 0; 
 		filter: alpha(opacity=0); 
 		opacity: 0; 
-		font-size: 150px; 
 		height: 25px; 
 		z-index:20;
 }
