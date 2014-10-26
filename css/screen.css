@@ -193,6 +193,9 @@ cursor: pointer;}
 }
  
 #upload{
+		position: absolute;
+		top: 10px;
+		left: 0;
 		width:100px; 
 		-moz-opacity: 0; 
 		filter: alpha(opacity=0); 
