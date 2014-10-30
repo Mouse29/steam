@@ -112,7 +112,7 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .cont__tab-content {margin-top: -40px; line-height: 45px;}
 
 .m20{ margin-top: -20px;}
-.m20 p{margin-bottom: 15px;}
+.m20 p{margin-bottom: 15px; max-width: 540px;}
 .pabs{position: absolute; top: 8px; right: -3px;}
 .no-bg .nav-tabs{margin: 0 0 30px 0;}
 .no-bg .nav-tabs > li {margin: 0 8px 0 0;}
