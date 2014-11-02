@@ -297,6 +297,7 @@ a:hover{
   color: #f1c40f;
   text-decoration: underline;
 }
+/**/
 a:hover,
 a:focus:not(.out a) {
   color: #f1c40f;
@@ -307,7 +308,7 @@ a:focus:not(.out a) {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-
+/**/
 figure {
   margin: 0;
 }
