@@ -16,6 +16,9 @@ GitHub: [https://github.com/veremey](https://github.com/veremey)
 
 myCV:  [google drive](https://drive.google.com/open?id=1TK9mt61RCe0p68Jt_lBX8pRnAtXPieYcpJr0OF9VwT0)
 
+### Странички для просмотра:
+
+[index.html](http://veremey.github.io/steam/)
 
 [2-comment.html](http://veremey.github.io/steam/2-comment.html)
 
